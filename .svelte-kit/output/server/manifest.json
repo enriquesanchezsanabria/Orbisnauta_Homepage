@@ -1,0 +1,119 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/build/hooks.js"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "entries/pages/__layout.svelte.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js"
+    ],
+    "css": [
+      "assets/entries/pages/__layout.svelte-3c91cac2.css",
+      "assets/app-35d12214.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js"
+    ]
+  },
+  "src/routes/__layout-esp.svelte": {
+    "file": "entries/pages/__layout-esp.svelte.js",
+    "src": "src/routes/__layout-esp.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js"
+    ],
+    "css": [
+      "assets/entries/pages/__layout-esp.svelte-f5eebe24.css",
+      "assets/app-35d12214.css"
+    ]
+  },
+  "src/routes/contact.svelte": {
+    "file": "entries/pages/contact.svelte.js",
+    "src": "src/routes/contact.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js",
+      "_CtaBanner-761566cd.js",
+      "_data-56dc5d00.js"
+    ]
+  },
+  "src/routes/contact_es@esp.svelte": {
+    "file": "entries/pages/contact_es@esp.svelte.js",
+    "src": "src/routes/contact_es@esp.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js",
+      "_CtaBanner-761566cd.js",
+      "_data_es-dd24b82e.js"
+    ]
+  },
+  "src/routes/es@esp.svelte": {
+    "file": "entries/pages/es@esp.svelte.js",
+    "src": "src/routes/es@esp.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js",
+      "_ServicesBanner-80648796.js",
+      "_CtaBanner-761566cd.js",
+      "_data_es-dd24b82e.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "entries/pages/index.svelte.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-0fac4578.js",
+      "_ServicesBanner-80648796.js",
+      "_CtaBanner-761566cd.js",
+      "_data-56dc5d00.js"
+    ]
+  },
+  "_index-0fac4578.js": {
+    "file": "chunks/index-0fac4578.js"
+  },
+  "_CtaBanner-761566cd.js": {
+    "file": "chunks/CtaBanner-761566cd.js",
+    "imports": [
+      "_index-0fac4578.js"
+    ],
+    "css": [
+      "assets/CtaBanner-183cfe7d.css"
+    ]
+  },
+  "_data-56dc5d00.js": {
+    "file": "chunks/data-56dc5d00.js"
+  },
+  "_data_es-dd24b82e.js": {
+    "file": "chunks/data_es-dd24b82e.js"
+  },
+  "_ServicesBanner-80648796.js": {
+    "file": "chunks/ServicesBanner-80648796.js",
+    "imports": [
+      "_index-0fac4578.js"
+    ],
+    "css": [
+      "assets/ServicesBanner-afd79cb6.css"
+    ]
+  },
+  ".svelte-kit/build/hooks.js": {
+    "file": "chunks/hooks-1c45ba0b.js",
+    "src": ".svelte-kit/build/hooks.js",
+    "isDynamicEntry": true
+  }
+}

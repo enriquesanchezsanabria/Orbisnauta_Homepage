@@ -1,0 +1,127 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-24d1b812.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-44d02d43.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/__layout-esp.svelte",
+      "src/routes/contact.svelte",
+      "src/routes/contact_es@esp.svelte",
+      "src/routes/es@esp.svelte",
+      "src/routes/index.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-2adcd5e5.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-44d02d43.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-55023919.css",
+      "assets/app-aa5035fd.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-b24f2604.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-44d02d43.js"
+    ]
+  },
+  "src/routes/__layout-esp.svelte": {
+    "file": "pages/__layout-esp.svelte-c81ebf72.js",
+    "src": "src/routes/__layout-esp.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-44d02d43.js"
+    ],
+    "css": [
+      "assets/pages/__layout-esp.svelte-f8b2ebcd.css",
+      "assets/app-aa5035fd.css"
+    ]
+  },
+  "src/routes/contact.svelte": {
+    "file": "pages/contact.svelte-8abaf3b2.js",
+    "src": "src/routes/contact.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-44d02d43.js",
+      "_CtaBanner-415455e4.js",
+      "_data-56dc5d00.js"
+    ]
+  },
+  "src/routes/contact_es@esp.svelte": {
+    "file": "pages/contact_es@esp.svelte-ee857179.js",
+    "src": "src/routes/contact_es@esp.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-44d02d43.js",
+      "_CtaBanner-415455e4.js",
+      "_data_es-dd24b82e.js"
+    ]
+  },
+  "src/routes/es@esp.svelte": {
+    "file": "pages/es@esp.svelte-02129ff8.js",
+    "src": "src/routes/es@esp.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-44d02d43.js",
+      "_ServicesBanner-c72a38b4.js",
+      "_CtaBanner-415455e4.js",
+      "_data_es-dd24b82e.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-6337dbc2.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-44d02d43.js",
+      "_ServicesBanner-c72a38b4.js",
+      "_CtaBanner-415455e4.js",
+      "_data-56dc5d00.js"
+    ]
+  },
+  "_index-44d02d43.js": {
+    "file": "chunks/index-44d02d43.js"
+  },
+  "_CtaBanner-415455e4.js": {
+    "file": "chunks/CtaBanner-415455e4.js",
+    "imports": [
+      "_index-44d02d43.js"
+    ],
+    "css": [
+      "assets/CtaBanner-fa458171.css"
+    ]
+  },
+  "_data-56dc5d00.js": {
+    "file": "chunks/data-56dc5d00.js"
+  },
+  "_data_es-dd24b82e.js": {
+    "file": "chunks/data_es-dd24b82e.js"
+  },
+  "_ServicesBanner-c72a38b4.js": {
+    "file": "chunks/ServicesBanner-c72a38b4.js",
+    "imports": [
+      "_index-44d02d43.js"
+    ],
+    "css": [
+      "assets/ServicesBanner-6b2f2956.css"
+    ]
+  }
+}
