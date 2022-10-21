@@ -349,6 +349,7 @@ p{
     font-size: 18px;
     line-height: 23px;
     max-width: 510px ;
+    text-align: center;
     /*max-width: 510px;*/
   }
 
