@@ -1,127 +1,193 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-66dc7532.js",
+    "file": "start-eba8bb27.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_index-44d02d43.js"
+      "_index-a0836ca2.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
-      "src/routes/__layout-esp.svelte",
       "src/routes/contact.svelte",
-      "src/routes/contact_es@esp.svelte",
-      "src/routes/es@esp.svelte",
-      "src/routes/index.svelte"
+      "src/routes/contact_es.svelte",
+      "src/routes/es.svelte",
+      "src/routes/index.svelte",
+      "src/routes/reel.svelte",
+      "src/routes/reel_es.svelte",
+      "src/routes/services.svelte",
+      "src/routes/services_es.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-74bffb39.js",
+    "file": "pages/__layout.svelte-c22ca178.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-44d02d43.js"
+      "_index-a0836ca2.js",
+      "_data-73f2d159.js",
+      "_data_es-092ff948.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-55023919.css",
-      "assets/app-aa5035fd.css"
+      "assets/pages/__layout.svelte-37c2dda2.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-ea73b179.js",
+    "file": "error.svelte-886f8720.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-44d02d43.js"
-    ]
-  },
-  "src/routes/__layout-esp.svelte": {
-    "file": "pages/__layout-esp.svelte-d3791eff.js",
-    "src": "src/routes/__layout-esp.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_index-44d02d43.js"
-    ],
-    "css": [
-      "assets/pages/__layout-esp.svelte-f8b2ebcd.css",
-      "assets/app-aa5035fd.css"
+      "_index-a0836ca2.js"
     ]
   },
   "src/routes/contact.svelte": {
-    "file": "pages/contact.svelte-aae4580e.js",
+    "file": "pages/contact.svelte-33c74571.js",
     "src": "src/routes/contact.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-44d02d43.js",
-      "_CtaBanner-7fd85d03.js",
-      "_data-56dc5d00.js"
+      "_index-a0836ca2.js",
+      "_CtaBanner-23da1aa3.js",
+      "_data-73f2d159.js"
     ]
   },
-  "src/routes/contact_es@esp.svelte": {
-    "file": "pages/contact_es@esp.svelte-9bb4efaa.js",
-    "src": "src/routes/contact_es@esp.svelte",
+  "src/routes/contact_es.svelte": {
+    "file": "pages/contact_es.svelte-328540ce.js",
+    "src": "src/routes/contact_es.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-44d02d43.js",
-      "_CtaBanner-7fd85d03.js",
-      "_data_es-dd24b82e.js"
+      "_index-a0836ca2.js",
+      "_CtaBanner-23da1aa3.js",
+      "_data_es-092ff948.js"
     ]
   },
-  "src/routes/es@esp.svelte": {
-    "file": "pages/es@esp.svelte-07c445a9.js",
-    "src": "src/routes/es@esp.svelte",
+  "src/routes/es.svelte": {
+    "file": "pages/es.svelte-95677266.js",
+    "src": "src/routes/es.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-44d02d43.js",
-      "_ServicesBanner-1a0e100b.js",
-      "_CtaBanner-7fd85d03.js",
-      "_data_es-dd24b82e.js"
+      "_index-a0836ca2.js",
+      "_PipelineBanner-718de6cf.js",
+      "_CtaSmallBanner-f5ff0f3c.js",
+      "_data_es-092ff948.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-35f9b669.js",
+    "file": "pages/index.svelte-09f97066.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_index-44d02d43.js",
-      "_ServicesBanner-1a0e100b.js",
-      "_CtaBanner-7fd85d03.js",
-      "_data-56dc5d00.js"
+      "_index-a0836ca2.js",
+      "_PipelineBanner-718de6cf.js",
+      "_CtaSmallBanner-f5ff0f3c.js",
+      "_data-73f2d159.js"
     ]
   },
-  "_index-44d02d43.js": {
-    "file": "chunks/index-44d02d43.js"
-  },
-  "_CtaBanner-7fd85d03.js": {
-    "file": "chunks/CtaBanner-7fd85d03.js",
+  "src/routes/reel.svelte": {
+    "file": "pages/reel.svelte-7856be5d.js",
+    "src": "src/routes/reel.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
     "imports": [
-      "_index-44d02d43.js"
-    ],
-    "css": [
-      "assets/CtaBanner-8acc2330.css"
+      "_index-a0836ca2.js",
+      "_ReelTabBanner-4a063653.js",
+      "_CtaSmallBanner-f5ff0f3c.js",
+      "_data-73f2d159.js"
     ]
   },
-  "_data-56dc5d00.js": {
-    "file": "chunks/data-56dc5d00.js"
-  },
-  "_data_es-dd24b82e.js": {
-    "file": "chunks/data_es-dd24b82e.js"
-  },
-  "_ServicesBanner-1a0e100b.js": {
-    "file": "chunks/ServicesBanner-1a0e100b.js",
+  "src/routes/reel_es.svelte": {
+    "file": "pages/reel_es.svelte-390f65f5.js",
+    "src": "src/routes/reel_es.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
     "imports": [
-      "_index-44d02d43.js"
+      "_index-a0836ca2.js",
+      "_ReelTabBanner-4a063653.js",
+      "_CtaSmallBanner-f5ff0f3c.js",
+      "_data_es-092ff948.js"
+    ]
+  },
+  "src/routes/services.svelte": {
+    "file": "pages/services.svelte-85939ddf.js",
+    "src": "src/routes/services.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-a0836ca2.js",
+      "_ServicesIndividualBanner-0924363f.js",
+      "_CtaSmallBanner-f5ff0f3c.js",
+      "_data-73f2d159.js"
+    ]
+  },
+  "src/routes/services_es.svelte": {
+    "file": "pages/services_es.svelte-dff86e2d.js",
+    "src": "src/routes/services_es.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-a0836ca2.js",
+      "_ServicesIndividualBanner-0924363f.js",
+      "_CtaSmallBanner-f5ff0f3c.js",
+      "_data_es-092ff948.js"
+    ]
+  },
+  "_index-a0836ca2.js": {
+    "file": "chunks/index-a0836ca2.js"
+  },
+  "_data-73f2d159.js": {
+    "file": "chunks/data-73f2d159.js"
+  },
+  "_data_es-092ff948.js": {
+    "file": "chunks/data_es-092ff948.js"
+  },
+  "_CtaBanner-23da1aa3.js": {
+    "file": "chunks/CtaBanner-23da1aa3.js",
+    "imports": [
+      "_index-a0836ca2.js"
     ],
     "css": [
-      "assets/ServicesBanner-90b96d47.css"
+      "assets/CtaBanner-8ab0c5e5.css"
+    ]
+  },
+  "_PipelineBanner-718de6cf.js": {
+    "file": "chunks/PipelineBanner-718de6cf.js",
+    "imports": [
+      "_index-a0836ca2.js"
+    ],
+    "css": [
+      "assets/PipelineBanner-c8a997e8.css"
+    ]
+  },
+  "_CtaSmallBanner-f5ff0f3c.js": {
+    "file": "chunks/CtaSmallBanner-f5ff0f3c.js",
+    "imports": [
+      "_index-a0836ca2.js"
+    ],
+    "css": [
+      "assets/CtaSmallBanner-3824108a.css"
+    ]
+  },
+  "_ReelTabBanner-4a063653.js": {
+    "file": "chunks/ReelTabBanner-4a063653.js",
+    "imports": [
+      "_index-a0836ca2.js"
+    ],
+    "css": [
+      "assets/ReelTabBanner-e2a5c5d7.css"
+    ]
+  },
+  "_ServicesIndividualBanner-0924363f.js": {
+    "file": "chunks/ServicesIndividualBanner-0924363f.js",
+    "imports": [
+      "_index-a0836ca2.js"
+    ],
+    "css": [
+      "assets/ServicesIndividualBanner-2d890f1a.css"
     ]
   }
 }

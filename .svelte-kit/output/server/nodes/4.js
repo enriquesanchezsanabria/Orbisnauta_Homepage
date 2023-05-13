@@ -1,7 +1,7 @@
-import * as module from '../entries/pages/contact_es@esp.svelte.js';
+import * as module from '../entries/pages/es.svelte.js';
 
 export { module };
 export const index = 4;
-export const entry = 'pages/contact_es@esp.svelte-9bb4efaa.js';
-export const js = ["pages/contact_es@esp.svelte-9bb4efaa.js","chunks/index-44d02d43.js","chunks/CtaBanner-7fd85d03.js","chunks/data_es-dd24b82e.js"];
-export const css = ["assets/CtaBanner-8acc2330.css"];
+export const entry = 'pages/es.svelte-95677266.js';
+export const js = ["pages/es.svelte-95677266.js","chunks/index-a0836ca2.js","chunks/PipelineBanner-718de6cf.js","chunks/CtaSmallBanner-f5ff0f3c.js","chunks/data_es-092ff948.js"];
+export const css = ["assets/PipelineBanner-c8a997e8.css","assets/CtaSmallBanner-3824108a.css"];

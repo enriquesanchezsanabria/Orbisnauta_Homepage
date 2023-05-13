@@ -20,6 +20,7 @@
   "dependencies": {
     "bootstrap-icons": "^1.8.3",
     "popper.js": "^1.16.1",
+    "svelte-media-queries": "^1.5.2",
     "svelte-preprocess": "^4.10.7"
   }
 }
