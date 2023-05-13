@@ -103,7 +103,7 @@ const INDUSTRIESBANNER_DATA_ES = {
 }
 
 const STACKBANNER_DATA_ES = {
-  HEADING: "Tecnologías XR Con Las Que Trabajamos",
+  HEADING: "Trabajamos con estas tecnologías XR",
   PLATFORMS_TITLE: "Plataformas",
   PLATFORMS_HEADING_1: "Cascos de Realidad Virtual",
   PLATFORMS_TEXT_1: "Trabajamos creando contenido inmersivo para los mejores cascos de realidad virtual del mercado, tanto portátiles como cableados.",
@@ -169,7 +169,7 @@ const STACKBANNER_DATA_ES = {
 
 
 const PIPELINEBANNER_DATA_ES = {
-  HEADING: "Soluciones de RV y RA Llave en Mano",
+  HEADING: "Procesos de trabajos ágiles y flexibles",
   DESCRIPTION: "Empezamos por evaluar sus necesidades y objetivos. Buscamos entender su visión y su marca para implementar una solución de XR alineada con ellas. Nos distinguimos por la eficiencia y flexibilidad, por eso adaptamos nuestros procesos de trabajo para que se ajusten mejor a sus requisitos. Las ideas estelares requieren excelencia en su implementación, por ello, utilizamos el desarrollo ágil para mejorar continuamente con el fin de alcanzar la solución óptima.",
   IMG_SRC_H: "images/home/empresa de realidad virtual desarrollo h.jpg",
   IMG_SRC_V: "images/home/empresa de realidad virtual desarrollo v.jpg"

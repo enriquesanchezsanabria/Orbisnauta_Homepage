@@ -86,7 +86,7 @@ const INDUSTRIESBANNER_DATA_ES = {
   INDUSTRY_6_5: "Fotos 360\xBA para mejorar las ventas."
 };
 const STACKBANNER_DATA_ES = {
-  HEADING: "Tecnolog\xEDas XR Con Las Que Trabajamos",
+  HEADING: "Trabajamos con estas tecnolog\xEDas XR",
   PLATFORMS_TITLE: "Plataformas",
   PLATFORMS_HEADING_1: "Cascos de Realidad Virtual",
   PLATFORMS_TEXT_1: "Trabajamos creando contenido inmersivo para los mejores cascos de realidad virtual del mercado, tanto port\xE1tiles como cableados.",
@@ -144,7 +144,7 @@ const STACKBANNER_DATA_ES = {
   IMG_STACK_HARDWARE_10: "images/stack/hardware/gopromax.jpg"
 };
 const PIPELINEBANNER_DATA_ES = {
-  HEADING: "Soluciones de RV y RA Llave en Mano",
+  HEADING: "Procesos de trabajos \xE1giles y flexibles",
   DESCRIPTION: "Empezamos por evaluar sus necesidades y objetivos. Buscamos entender su visi\xF3n y su marca para implementar una soluci\xF3n de XR alineada con ellas. Nos distinguimos por la eficiencia y flexibilidad, por eso adaptamos nuestros procesos de trabajo para que se ajusten mejor a sus requisitos. Las ideas estelares requieren excelencia en su implementaci\xF3n, por ello, utilizamos el desarrollo \xE1gil para mejorar continuamente con el fin de alcanzar la soluci\xF3n \xF3ptima.",
   IMG_SRC_H: "images/home/empresa de realidad virtual desarrollo h.jpg",
   IMG_SRC_V: "images/home/empresa de realidad virtual desarrollo v.jpg"

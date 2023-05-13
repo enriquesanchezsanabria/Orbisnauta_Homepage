@@ -62,7 +62,7 @@ const SeoBanner = create_ssr_component(($$result, $$props, $$bindings, slots) =>
 });
 var IndustriesBanner_svelte_svelte_type_style_lang = "";
 const css$2 = {
-  code: "section.svelte-158lir3.svelte-158lir3{scroll-margin-top:96px}.card.svelte-158lir3.svelte-158lir3{border-radius:25px;border-style:solid;border-width:3px;border-color:black;background-color:#deed0a}.card.svelte-158lir3.svelte-158lir3:hover{background-color:black;border-style:solid;border-color:#deed0a}.card.svelte-158lir3:hover li.svelte-158lir3{color:white}.card.svelte-158lir3:hover i.svelte-158lir3{color:#deed0a}.card.svelte-158lir3:hover h4.svelte-158lir3{color:#deed0a}ul.svelte-158lir3.svelte-158lir3{padding:0px 0px 0px 20px}.card-title.svelte-158lir3.svelte-158lir3{text-align:center}.card-container.svelte-158lir3.svelte-158lir3{margin:10px 0;max-width:400px}@media(min-width: 1921px){.card-row.svelte-158lir3.svelte-158lir3{max-width:99rem}.main-text-main.svelte-158lir3.svelte-158lir3{max-width:90rem;margin-left:auto;margin-right:auto}.main-text-post.svelte-158lir3.svelte-158lir3{max-width:90rem;margin-left:auto;margin-right:auto}}@media(max-width: 1920px) and (min-width: 1400px){}@media(max-width: 1399px) and (min-width: 992px){}@media(max-width: 991px) and (min-width: 768px){}@media(max-width: 767px) and (min-width: 576px){}@media(max-width: 575px) and (min-width: 377px){.main-text-main.svelte-158lir3.svelte-158lir3{font-size:2rem;margin-left:auto;margin-right:auto;max-width:21rem}.main-text-post.svelte-158lir3.svelte-158lir3{font-size:1rem;margin-left:auto;margin-right:auto;max-width:21rem}}@media(max-width: 376px){.main-text-main.svelte-158lir3.svelte-158lir3{font-size:1.9rem;margin-left:auto;margin-right:auto;max-width:21rem}.main-text-post.svelte-158lir3.svelte-158lir3{font-size:1rem;margin-left:auto;margin-right:auto;max-width:21rem}}",
+  code: "section.svelte-xlufsv.svelte-xlufsv{scroll-margin-top:96px}.card.svelte-xlufsv.svelte-xlufsv{border-radius:25px;border-style:solid;border-width:3px;border-color:black;background-color:#deed0a}.card.svelte-xlufsv.svelte-xlufsv:hover{background-color:black;border-style:solid;border-color:#deed0a}.card.svelte-xlufsv:hover li.svelte-xlufsv{color:white}.card.svelte-xlufsv:hover i.svelte-xlufsv{color:#deed0a}.card.svelte-xlufsv:hover h4.svelte-xlufsv{color:#deed0a}ul.svelte-xlufsv.svelte-xlufsv{padding:0px 0px 0px 20px}.card-title.svelte-xlufsv.svelte-xlufsv{text-align:center}.card-container.svelte-xlufsv.svelte-xlufsv{margin:10px 0;max-width:400px}@media(min-width: 1921px){.card-row.svelte-xlufsv.svelte-xlufsv{max-width:99rem}.main-text-main.svelte-xlufsv.svelte-xlufsv{max-width:90rem;margin-left:auto;margin-right:auto}.main-text-post.svelte-xlufsv.svelte-xlufsv{max-width:90rem;margin-left:auto;margin-right:auto}}@media(max-width: 1920px) and (min-width: 1400px){}@media(max-width: 1399px) and (min-width: 992px){}@media(max-width: 991px) and (min-width: 768px){}@media(max-width: 767px) and (min-width: 576px){}@media(max-width: 575px) and (min-width: 377px){.main-text-main.svelte-xlufsv.svelte-xlufsv{font-size:2rem;margin-left:auto;margin-right:auto;max-width:21rem}.main-text-post.svelte-xlufsv.svelte-xlufsv{font-size:1rem;margin-left:auto;margin-right:auto;max-width:21rem}}@media(max-width: 376px){.main-text-main.svelte-xlufsv.svelte-xlufsv{font-size:1.9rem;margin-left:auto;margin-right:auto;max-width:21rem}.main-text-post.svelte-xlufsv.svelte-xlufsv{font-size:1rem;margin-left:auto;margin-right:auto;max-width:21rem}}",
   map: null
 };
 const IndustriesBanner = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -71,65 +71,65 @@ const IndustriesBanner = create_ssr_component(($$result, $$props, $$bindings, sl
   if ($$props.industriesbannerData === void 0 && $$bindings.industriesbannerData && industriesbannerData !== void 0)
     $$bindings.industriesbannerData(industriesbannerData);
   $$result.css.add(css$2);
-  return `<section id="${"industriesbanner"}" class="${"bg-white d-flex align-items-center svelte-158lir3"}"><div class="${"container-fluid my-4"}"><div class="${"row section-body justify-content-center"}"><div id="${"title-content-wrapper"}" class="${"col-11 col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7"}"><div class="${"col-12 mb-3 mb-xxl-4 my-4 "}"><h2 class="${"main-text-main text-black display-2 fw-bold text-center svelte-158lir3"}">${escape(HEADING)}</h2></div>
+  return `<section id="${"industriesbanner"}" class="${"bg-white d-flex align-items-center svelte-xlufsv"}"><div class="${"container-fluid my-4"}"><div class="${"row section-body justify-content-center"}"><div id="${"title-content-wrapper"}" class="${"col-11 col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7"}"><div class="${"col-12 mb-3 mb-xxl-4 my-4 "}"><h2 class="${"main-text-main text-black display-2 fw-bold text-center svelte-xlufsv"}">${escape(HEADING)}</h2></div>
       
-        <div class="${"col-12 my-3 my-sm-4 my-4"}"><h3 class="${"main-text-post text-black text-center svelte-158lir3"}">${escape(DESCRIPTION)}</h3></div></div></div>
+        <div class="${"col-12 my-3 my-sm-4 my-4"}"><h3 class="${"main-text-post text-black text-center svelte-xlufsv"}">${escape(DESCRIPTION)}</h3></div></div></div>
 
-    <div class="${"row justify-content-center"}"><div class="${"col-12 col-md-12 col-xxl-9"}" align="${"center"}"><div class="${"row card-row justify-content-center svelte-158lir3"}"><div class="${"card-container col-sm-12 col-md-6 col-xl-4  svelte-158lir3"}"><div class="${"card h-100 svelte-158lir3"}"><div class="${"card-body"}"><h4 class="${"card-title fw-bold svelte-158lir3"}"><i class="${"bi bi-headset-vr svelte-158lir3"}"></i>
+    <div class="${"row justify-content-center"}"><div class="${"col-12 col-md-12 col-xxl-9"}" align="${"center"}"><div class="${"row card-row justify-content-center svelte-xlufsv"}"><div class="${"card-container col-sm-12 col-md-6 col-xl-4  svelte-xlufsv"}"><div class="${"card h-100 svelte-xlufsv"}"><div class="${"card-body"}"><h4 class="${"card-title fw-bold svelte-xlufsv"}"><i class="${"bi bi-headset-vr svelte-xlufsv"}"></i>
                   ${escape(INDUSTRY_1_TITLE)}</h4>
                 
-                  <div class="${"industry-prev-card__desc"}"><ul class="${"industry-prev-card__list svelte-158lir3"}"><li class="${"svelte-158lir3"}">${escape(INDUSTRY_1_1)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_1_2)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_1_3)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_1_4)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_1_5)}</li></ul></div></div></div></div>
+                  <div class="${"industry-prev-card__desc"}"><ul class="${"industry-prev-card__list svelte-xlufsv"}"><li class="${"svelte-xlufsv"}">${escape(INDUSTRY_1_1)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_1_2)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_1_3)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_1_4)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_1_5)}</li></ul></div></div></div></div>
 
-          <div class="${"card-container col-sm-12 col-md-6 col-xl-4 svelte-158lir3"}"><div class="${"card h-100 svelte-158lir3"}"><div class="${"card-body"}"><h4 class="${"card-title fw-bold svelte-158lir3"}"><i class="${"bi bi-cone-striped svelte-158lir3"}"></i>
+          <div class="${"card-container col-sm-12 col-md-6 col-xl-4 svelte-xlufsv"}"><div class="${"card h-100 svelte-xlufsv"}"><div class="${"card-body"}"><h4 class="${"card-title fw-bold svelte-xlufsv"}"><i class="${"bi bi-cone-striped svelte-xlufsv"}"></i>
                   ${escape(INDUSTRY_2_TITLE)}</h4>
                 
-                  <div class="${"industry-prev-card__desc"}"><ul class="${"industry-prev-card__list svelte-158lir3"}"><li class="${"svelte-158lir3"}">${escape(INDUSTRY_2_1)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_2_2)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_2_3)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_2_4)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_2_5)}</li></ul></div></div></div></div>
+                  <div class="${"industry-prev-card__desc"}"><ul class="${"industry-prev-card__list svelte-xlufsv"}"><li class="${"svelte-xlufsv"}">${escape(INDUSTRY_2_1)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_2_2)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_2_3)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_2_4)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_2_5)}</li></ul></div></div></div></div>
 
-          <div class="${"card-container col-sm-12 col-md-6 col-xl-4 svelte-158lir3"}"><div class="${"card h-100 svelte-158lir3"}"><div class="${"card-body"}"><h4 class="${"card-title fw-bold svelte-158lir3"}"><i class="${"bi bi-palette-fill svelte-158lir3"}"></i>
+          <div class="${"card-container col-sm-12 col-md-6 col-xl-4 svelte-xlufsv"}"><div class="${"card h-100 svelte-xlufsv"}"><div class="${"card-body"}"><h4 class="${"card-title fw-bold svelte-xlufsv"}"><i class="${"bi bi-palette-fill svelte-xlufsv"}"></i>
                   ${escape(INDUSTRY_3_TITLE)}</h4>
                 
-                  <div class="${"industry-prev-card__desc"}"><ul class="${"industry-prev-card__list svelte-158lir3"}"><li class="${"svelte-158lir3"}">${escape(INDUSTRY_3_1)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_3_2)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_3_3)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_3_4)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_3_5)}</li></ul></div></div></div></div>
+                  <div class="${"industry-prev-card__desc"}"><ul class="${"industry-prev-card__list svelte-xlufsv"}"><li class="${"svelte-xlufsv"}">${escape(INDUSTRY_3_1)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_3_2)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_3_3)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_3_4)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_3_5)}</li></ul></div></div></div></div>
 
 
 
-          <div class="${"card-container col-sm-12 col-md-6 col-xl-4  svelte-158lir3"}"><div class="${"card h-100 svelte-158lir3"}"><div class="${"card-body"}"><h4 class="${"card-title fw-bold svelte-158lir3"}"><i class="${"bi bi-lightbulb svelte-158lir3"}"></i>
+          <div class="${"card-container col-sm-12 col-md-6 col-xl-4  svelte-xlufsv"}"><div class="${"card h-100 svelte-xlufsv"}"><div class="${"card-body"}"><h4 class="${"card-title fw-bold svelte-xlufsv"}"><i class="${"bi bi-lightbulb svelte-xlufsv"}"></i>
                   ${escape(INDUSTRY_4_TITLE)}</h4>
                 
-                  <div class="${"industry-prev-card__desc"}"><ul class="${"industry-prev-card__list svelte-158lir3"}"><li class="${"svelte-158lir3"}">${escape(INDUSTRY_4_1)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_4_2)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_4_3)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_4_4)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_4_5)}</li></ul></div></div></div></div>
+                  <div class="${"industry-prev-card__desc"}"><ul class="${"industry-prev-card__list svelte-xlufsv"}"><li class="${"svelte-xlufsv"}">${escape(INDUSTRY_4_1)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_4_2)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_4_3)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_4_4)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_4_5)}</li></ul></div></div></div></div>
 
-          <div class="${"card-container col-sm-12 col-md-6 col-xl-4 svelte-158lir3"}"><div class="${"card h-100 svelte-158lir3"}"><div class="${"card-body"}"><h4 class="${"card-title fw-bold svelte-158lir3"}"><i class="${"bi bi-heart-pulse-fill svelte-158lir3"}"></i>
+          <div class="${"card-container col-sm-12 col-md-6 col-xl-4 svelte-xlufsv"}"><div class="${"card h-100 svelte-xlufsv"}"><div class="${"card-body"}"><h4 class="${"card-title fw-bold svelte-xlufsv"}"><i class="${"bi bi-heart-pulse-fill svelte-xlufsv"}"></i>
                   ${escape(INDUSTRY_5_TITLE)}</h4>
                   
-                  <div class="${"industry-prev-card__desc"}"><ul class="${"industry-prev-card__list svelte-158lir3"}"><li class="${"svelte-158lir3"}">${escape(INDUSTRY_5_1)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_5_2)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_5_3)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_5_4)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_5_5)}</li></ul></div></div></div></div>
+                  <div class="${"industry-prev-card__desc"}"><ul class="${"industry-prev-card__list svelte-xlufsv"}"><li class="${"svelte-xlufsv"}">${escape(INDUSTRY_5_1)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_5_2)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_5_3)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_5_4)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_5_5)}</li></ul></div></div></div></div>
 
-          <div class="${"card-container col-sm-12 col-md-6 col-xl-4  svelte-158lir3"}"><div class="${"card h-100 svelte-158lir3"}"><div class="${"card-body"}"><h4 class="${"card-title fw-bold svelte-158lir3"}"><i class="${"bi bi-building svelte-158lir3"}"></i>
+          <div class="${"card-container col-sm-12 col-md-6 col-xl-4  svelte-xlufsv"}"><div class="${"card h-100 svelte-xlufsv"}"><div class="${"card-body"}"><h4 class="${"card-title fw-bold svelte-xlufsv"}"><i class="${"bi bi-building svelte-xlufsv"}"></i>
                   ${escape(INDUSTRY_6_TITLE)}</h4>
                 
-                  <div class="${"industry-prev-card__desc"}"><ul class="${"industry-prev-card__list svelte-158lir3"}"><li class="${"svelte-158lir3"}">${escape(INDUSTRY_6_1)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_6_2)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_6_3)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_6_4)}</li>
-                      <li class="${"svelte-158lir3"}">${escape(INDUSTRY_6_5)}</li></ul></div></div></div></div></div></div></div></div>
+                  <div class="${"industry-prev-card__desc"}"><ul class="${"industry-prev-card__list svelte-xlufsv"}"><li class="${"svelte-xlufsv"}">${escape(INDUSTRY_6_1)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_6_2)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_6_3)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_6_4)}</li>
+                      <li class="${"svelte-xlufsv"}">${escape(INDUSTRY_6_5)}</li></ul></div></div></div></div></div></div></div></div>
 </section>`;
 });
 var StackBanner_svelte_svelte_type_style_lang = "";

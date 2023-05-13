@@ -280,13 +280,7 @@ ul{
     max-width: 21rem;
 }
 
-.card-title{
-  
-}
 
-li{
-
-}
 
 }
 

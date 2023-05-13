@@ -1,7 +1,7 @@
 import { c as create_ssr_component, v as validate_component } from "../../chunks/index-59524ad9.js";
 import { S as ServicesMainBanner, a as ServicesIndividualBanner } from "../../chunks/ServicesIndividualBanner-73f497d5.js";
 import { C as CtaSmallBanner } from "../../chunks/CtaSmallBanner-1048154b.js";
-import { M as MOCK_DATA } from "../../chunks/data_es-092ff948.js";
+import { M as MOCK_DATA } from "../../chunks/data_es-35e3f243.js";
 const Services_es = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `
 
