@@ -17,7 +17,7 @@
                 </div>
 
                 <div class="col-12 my-3 my-sm-4 my-4">
-                    <h3 class="main-text-post text-black text-justify">
+                    <h3 class="main-text-post text-black text-justify lh-base">
                         {DESCRIPTION}                
                     </h3>
                 </div>

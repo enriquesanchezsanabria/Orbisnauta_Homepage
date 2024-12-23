@@ -299,7 +299,7 @@ function noReloadChangeToEnglish(){
         </a>
 
         {/if}
-        -  Copyright Ⓒ 2023 Orbisnauta  -
+        -  Copyright Ⓒ 2017-2024 Orbisnauta  -
       </p>
 
 

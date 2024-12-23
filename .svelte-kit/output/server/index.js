@@ -2257,10 +2257,12 @@ const template = ({ head, body, assets: assets2, nonce }) => `<!DOCTYPE html>
 		<link rel="icon" href="images/favicon.png">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 		
 		
 		<!-- Hotjar Tracking Code for https://www.orbisnauta.com/ -->
 		<script>
+			/*
 		(function(h,o,t,j,a,r){
 		h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
 		h._hjSettings={hjid:3117160,hjsv:6};
@@ -2269,6 +2271,7 @@ const template = ({ head, body, assets: assets2, nonce }) => `<!DOCTYPE html>
 		r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
 		a.appendChild(r);
 		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+		*/
 		<\/script>
 
 		` + head + '\n\n	</head>\n\n	<body>\n		<!-- Google Tag Manager (noscript) -->\n		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MH582KW"\n		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>\n		<!-- End Google Tag Manager (noscript) -->\n\n		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"><\/script>\n\n		<div>' + body + "</div>\n	</body>\n	\n</html>\n";

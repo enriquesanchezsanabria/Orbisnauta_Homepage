@@ -15,7 +15,7 @@
                     {HEADING}
                 </p>
 
-                <h1 class="main-text-post text-black my-4 text-center h3">
+                <h1 class="main-text-post text-black my-4 text-center h3 lh-base">
                     {DESCRIPTION}
                 </h1>
 

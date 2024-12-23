@@ -48,7 +48,7 @@ function showOptionalForm(){
         <h1 class="main-text-main text-center fw-bold my-1 my-md-3 display-2">
             {HEADING}
         </h1>
-        <h2 class="main-text-post text-center text-light my-1 my-md-3 ">
+        <h2 class="main-text-post text-center text-light my-1 my-md-3 lh-base ">
           {DESCRIPTION}
         </h2>
       </div>
@@ -118,7 +118,7 @@ function showOptionalForm(){
 
           </div>
         
-          <div class="row justify-content-center mt-4 mb-3">
+          <div class="row form-check-row justify-content-center mt-3 mb-2 mt-xs-4 mb-xs-3">
             <div class="col-11 justify-content-center">
               <div class="form-check">
                 <input class="form-check-input px-2 my-2" type="checkbox" value="" id="flexCheckChecked" checked={isCheckMarked} on:click={checkboxClicked} >
@@ -187,6 +187,12 @@ function showOptionalForm(){
 .btn:hover .bi{
     display: inline-block; 
     transform: translate(5px,0px);  
+}
+
+/* USAMOS ESTO PARA QUE NO SE VEA EL BORDE AZUL CUANDO HEMOS CLICKEADO EL BOTON EN MOVIL*/
+.btn:focus, .btn:active{
+    outline: none !important;
+    box-shadow: none;
 }
 
 .input-group-text, .form-radius, .form-select, .form-specification, .legal-box,.legal-check  {
@@ -272,6 +278,25 @@ function showOptionalForm(){
     font-size: 0.7rem ;
     text-align: center;
   }
+
+  
+  .main-text-main{
+        font-size: 2rem;
+  }
+
+  .main-text-post{
+    font-size: 1rem;
+  }
+
+  .form-label, .form-control{
+    font-size: 1rem;
+  }
+
+  .legal-text{
+    font-size: 0.6rem;
+
+  }
+
 
 }
 

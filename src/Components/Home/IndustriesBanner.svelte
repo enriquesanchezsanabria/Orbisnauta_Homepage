@@ -23,7 +23,7 @@
         </div>
       
         <div class="col-12 my-3 my-sm-4 my-4">
-          <h3 class="main-text-post text-black  text-center">
+          <h3 class="main-text-post text-black text-center lh-base">
             {DESCRIPTION}       
           </h3>
         </div>
@@ -44,7 +44,7 @@
                 </h4>
                 <!-- <p class="card-text">1 Some quick example text to build on the card title and make up the bulk of the card's content.</p>-->
                   <div class="industry-prev-card__desc">
-                    <ul class="industry-prev-card__list">
+                    <ul class="industry-prev-card__list ">
                       <li> {INDUSTRY_1_1} </li>
                       <li> {INDUSTRY_1_2} </li>
                       <li> {INDUSTRY_1_3} </li>
@@ -214,6 +214,11 @@ ul{
   max-width: 400px;
 }
 
+li{
+  text-align: left;
+  line-height: 1.8rem ;
+}
+
 
 
 /* 5) ULTRA LARGE SIZE - ULTRA SCREENS >1921 */
@@ -287,7 +292,7 @@ ul{
 @media(max-width: 376px){
 
   .main-text-main{
-    font-size: 1.9rem;
+    font-size: 2rem;
     margin-left: auto;
     margin-right: auto;
     max-width: 21rem;
@@ -299,6 +304,14 @@ ul{
     margin-left: auto;
     margin-right: auto;
     max-width: 21rem;
+}
+
+.card-title{
+  font-size: 1.2rem;
+}
+
+li{
+  font-size:0.9rem;
 }
 
 }

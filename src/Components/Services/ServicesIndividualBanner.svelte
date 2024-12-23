@@ -41,11 +41,11 @@ onMount(() => {
                 <!-- <div id="text-content-wrapper" class="col-11 col-lg-7 col-xl-6 text-center my-auto mx-xl-3"> -->
                 <div id="text-content-wrapper" class="px-4 my-auto">
 
-                    <h2 class="main-text-sub text-center my-2 my-lg-3 my-xxl-3 display-3">
+                    <h2 class="main-text-sub text-center my-2 my-lg-3 my-xxl-3 display-3 ">
                         {SERVICE_HEADING}
                     </h2>
                     
-                    <h4 class="main-text-main text-center text-light my-3 my-lg-3 my-xxl-3 display-5">
+                    <h4 class="main-text-main text-center text-light mb-5 mb-lg-5 my-4 my-lg-3 display-5 lh-base">
                         {SERVICE_SUBHEADING}
                     </h4>
                 
@@ -53,11 +53,11 @@ onMount(() => {
                     {#if SERVICE_QUANTITY > 1}
                             {#each Array(SERVICE_QUANTITY) as _, servicescounter}
                             <li class="my-3 h3"> <strong class="text-titles">{IMG_SERVICE_TITLES[servicescounter]}</strong>
-                                <span class="h4">{IMG_SERVICE_DESCRIPTIONS[servicescounter]}</span>
+                                <span class="h4 lh-base">{IMG_SERVICE_DESCRIPTIONS[servicescounter]}</span>
                             </li>
                             {/each}
                         {:else}
-                            {SERVICE_DESCRIPTION_1}
+                        <span class="h4 lh-base">{SERVICE_DESCRIPTION_1}</span>
                         {/if}
                     </h3>
                     
@@ -156,6 +156,11 @@ img{
     border-color: #deed0a;
 }
 
+/* USAMOS ESTO PARA QUE NO SE VEA EL BORDE AZUL CUANDO HEMOS CLICKEADO EL BOTON EN MOVIL*/
+.btn-primary:focus, .btn-primary:active{
+    outline: none !important;
+    box-shadow: none;
+}
 
 .btn-primary:hover .bi{
     display: inline-block; 
@@ -236,7 +241,7 @@ li{
     }
 
     .main-text-post{
-        text-align: center;
+        text-align: left;
     }
 
     .btn-primary{
@@ -258,7 +263,7 @@ li{
     }
 
     .main-text-post{
-        text-align: center;
+        text-align: left;
     }
 
 
@@ -281,7 +286,7 @@ li{
     }
 
     .main-text-post{
-        text-align: center;
+        text-align: left;
     }
 
 
@@ -308,7 +313,7 @@ li{
     }
 
     .main-text-post{
-        text-align: center;
+        text-align: left;
     }
 
 

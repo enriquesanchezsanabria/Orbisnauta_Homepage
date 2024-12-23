@@ -19,7 +19,7 @@
                 </div>
 
                 <div class="col-12 my-2 mb-3 mb-md-3">
-                    <h1 class="main-text-main text-black display-1 my-0">
+                    <h1 class="main-text-main text-black display-1 my-4">
                         {HEADING_1}
                         <br>
                         {HEADING_2}
@@ -27,7 +27,7 @@
                 </div>
 
                 <div class="col-12">
-                    <h2 class="main-text-post text-black px-2">
+                    <h2 class="main-text-post text-black px-2 lh-base">
                         {DESCRIPTION_1}
                         <strong>{DESCRIPTION_2_STRONG}</strong>
                         {DESCRIPTION_3}
@@ -64,6 +64,11 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+
+ 
+        /*font-family: 'Tangerine', serif;
+        font-size: 48px;*/
+      
 
 }
 
@@ -102,10 +107,10 @@
         max-width: 50rem;
     }
     
-        /* SECTION */
+        /* SECTION 
     #mainbanner {
         height: calc(100vh - 96px);
-    }
+    }*/
 
 }
 
@@ -126,10 +131,10 @@
         max-width: 46rem;
     }
 
-    /* SECTION */
+    /* SECTION 
     #mainbanner {
         height: calc(100vh - 96px);
-    }
+    }*/
 }
 
 /* 3) LARGE SIZE - PC  >1399px and <992px */

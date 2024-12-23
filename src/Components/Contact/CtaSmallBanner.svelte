@@ -28,7 +28,7 @@ onMount(() => {
                 </div>
 
                 <div class="col-12">
-                    <h2 class="main-text-main text-white my-0 my-xxl-3 pb-xxl-2 display-3">
+                    <h2 class="main-text-main text-white my-0 my-xxl-3 pb-xxl-2 display-3 lh-base">
                         {HEADING_1}
                         <br>
                         <span class="fw-bold heading-12">{HEADING_12}</span>
@@ -86,6 +86,13 @@ onMount(() => {
     display: inline-block; 
     transform: translate(5px,0px);  
 }
+
+/* USAMOS ESTO PARA QUE NO SE VEA EL BORDE AZUL CUANDO HEMOS CLICKEADO EL BOTON EN MOVIL*/
+.btn-primary:focus, .btn-primary:active{
+    outline: none !important;
+    box-shadow: none;
+}
+
 
 .main-text-sub {
     color: #deed0a;  
@@ -213,6 +220,9 @@ onMount(() => {
 
     }
 
+    .main-text-main{
+        font-size: 2.3rem;
+    }
 
   
 

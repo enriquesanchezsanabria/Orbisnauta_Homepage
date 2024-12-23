@@ -23,7 +23,7 @@ export let mainreelbannerData = {};
             </div>
 
             <div class="description-container col-12 col-md-6 col-xxl-3 align-middle my-auto mx-md-2">
-                <h1 class="main-text-post text-start text-black h3" display="justify">
+                <h1 class="main-text-post text-start text-black h3 lh-base" display="justify">
                     {DESCRIPTION_1}
                 </h1>
             </div>

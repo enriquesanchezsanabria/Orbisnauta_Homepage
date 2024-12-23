@@ -1,5 +1,5 @@
 import { c as create_ssr_component, e as escape } from "../../chunks/index-59524ad9.js";
-import { M as MOCK_DATA } from "../../chunks/data-73f2d159.js";
+import { M as MOCK_DATA } from "../../chunks/data-a61deb9a.js";
 var global = "";
 var app = "";
 var __layout_svelte_svelte_type_style_lang = "";
@@ -75,7 +75,7 @@ const _layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
         <a class="${"legal svelte-1n39ubt"}" href="${"docs/Politica_Privacidad_Orbisnauta.pdf"}">${escape(navbannerData.PRIVACY_POLICY)}</a>
         -  
         <a class="${"legal svelte-1n39ubt"}" href="${"docs/Politica_Cookies_Orbisnauta.pdf"}">${escape(navbannerData.COOKIE_POLICY)}</a>`}
-        -  Copyright \u24B8 2023 Orbisnauta  -
+        -  Copyright \u24B8 2017-2024 Orbisnauta  -
       </p></div></footer>
 </div>`;
 });

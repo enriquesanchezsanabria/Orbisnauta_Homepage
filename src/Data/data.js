@@ -54,7 +54,7 @@ const MAINBANNER_DATA = {
 }
 
 const SEOBANNER_DATA = {
-  PREHEADING: "+6 Years Developing Unforgettable Digital Experiences",
+  PREHEADING: "+7 Years Developing Unforgettable Digital Experiences",
   HEADING: "More than an immersive content agency, a technological partner",
   DESCRIPTION_ONE: "Orbisnauta is a multi-industry immersive tech-agency with proficiency in the creation of state-of-the-art virtual experiences. Our vision consists of pushing the boundaries of spatial computing while being laser focused on providing real and quantifiable value to your brand.",
   DESCRIPTION_TWO: "We live to solve the most ambitious technological challenges through the thoughtful and optimized implementation of XR (extended reality) solutions without unnecessary investments.",
@@ -151,27 +151,26 @@ const STACKBANNER_DATA = {
   IMG_STACK_SOFTWARE_10: "images/stack/software/sveltehtmljavascriptcss.jpg",
 
   HARDWARE_TITLE: "Hardware",
-  HARDWARE_HEADING_1: "Varjo VR-3",
-  HARDWARE_HEADING_2: "Meta Quest 2 / Pico Neo 3",
-  HARDWARE_HEADING_3: "Insta360 Pro 2",
-  HARDWARE_HEADING_4: "Phones / Tablet / TouchScreens",
-  HARDWARE_HEADING_5: "HTC Vive Pro 2 / Focus",
-  HARDWARE_HEADING_6: "Drones",
-  HARDWARE_HEADING_7: "Looking Glass Holograms",
-  HARDWARE_HEADING_8: "Immersive Rooms / Domes",
-  HARDWARE_HEADING_9: "Oculus Go",
-  HARDWARE_HEADING_10: "GoPro Max",
+  HARDWARE_HEADING_1: "Meta Quest 3",
+  HARDWARE_HEADING_2: "Varjo VR-3",
+  HARDWARE_HEADING_3: "Pico Neo 4",
+  HARDWARE_HEADING_4: "Insta360 Pro 2",
+  HARDWARE_HEADING_5: "Valve Index / HTC Vive Pro 2 / Focus",
+  HARDWARE_HEADING_6: "Phones / Tablet / TouchScreens",
+  HARDWARE_HEADING_7: "Drones",
+  HARDWARE_HEADING_8: "Holograms",
+  HARDWARE_HEADING_9: "Immersive Rooms / Domes",
 
-  IMG_STACK_HARDWARE_1: "images/stack/hardware/varjo.jpg",
-  IMG_STACK_HARDWARE_2: "images/stack/hardware/metaquest_piconeo3.jpg",
-  IMG_STACK_HARDWARE_3: "images/stack/hardware/insta360.jpg",
-  IMG_STACK_HARDWARE_4: "images/stack/hardware/android_apple.jpg",
+  IMG_STACK_HARDWARE_1: "images/stack/hardware/metaquest3.jpg",
+  IMG_STACK_HARDWARE_2: "images/stack/hardware/varjo.jpg",
+  IMG_STACK_HARDWARE_3: "images/stack/hardware/piconeo4.jpg",
+  IMG_STACK_HARDWARE_4: "images/stack/hardware/insta360.jpg",
   IMG_STACK_HARDWARE_5: "images/stack/hardware/vive.jpg",
-  IMG_STACK_HARDWARE_6: "images/stack/hardware/drone.jpg",
-  IMG_STACK_HARDWARE_7: "images/stack/hardware/lookingglass.jpg",
-  IMG_STACK_HARDWARE_8: "images/stack/hardware/dome.jpg",
-  IMG_STACK_HARDWARE_9: "images/stack/hardware/oculusgo.jpg",
-  IMG_STACK_HARDWARE_10: "images/stack/hardware/gopromax.jpg",
+  IMG_STACK_HARDWARE_6: "images/stack/hardware/android_apple.jpg",
+  IMG_STACK_HARDWARE_7: "images/stack/hardware/drone.jpg",
+  IMG_STACK_HARDWARE_8: "images/stack/hardware/lookingglass.jpg",
+  IMG_STACK_HARDWARE_9: "images/stack/hardware/dome.jpg",
+
 
 }
 
@@ -219,7 +218,7 @@ const CTABANNER_DATA = {
   FORM_SUBMIT: "Submit",
   
   LEGAL_MESSAGE_1b: "Basic Information on Data Protection",
-  LEGAL_MESSAGE_2b: "Responsible: 'SERVICIOS AVANZADOS DE CANARIAS, S.L.'. Purpose: ",
+  LEGAL_MESSAGE_2b: "Responsible: 'ORBISNAUTA S.L.'. Purpose: ",
   LEGAL_MESSAGE_3: "Comprehensive contact management. ",
   LEGAL_MESSAGE_4b: "Legitimation: ",
   LEGAL_MESSAGE_5: "Consent of the interested party. ",
@@ -258,17 +257,48 @@ const MAINREELBANNER_DATA = {
 
 }
 
-const REELTAB_1_BANNER_DATA = {
-  REEL_ID: "1",
+const REELTAB_13_BANNER_DATA = {
+  REEL_ID: "13",
+  HEADING: "HECANSA IMMERSIVE FISHING",
+
+  REEL_IMAGE_QUANTITY: 5,
+  IMG_SRC_REEL_1: "images/reel/13/HECANSA_JPG_1.jpg",
+  IMG_SRC_REEL_2: "images/reel/13/HECANSA_JPG_2.jpg",
+  IMG_SRC_REEL_3: "images/reel/13/HECANSA_JPG_3.jpg",
+  IMG_SRC_REEL_4: "images/reel/13/HECANSA_JPG_4.jpg",
+  IMG_SRC_REEL_5: "images/reel/13/HECANSA_JPG_5.jpg",
+
+  /*TAGS MUST BE MAX 3 WORDS LONG*/
+  TAG1:"360 VIDEO PRODUCTION",
+  TAG2:"360 VR FILMMAKING",
+  TAG3:"VIRTUAL REALITY HEADSET",
+  TAG4:"VIRTUAL REALITY STAND",
+  DESCRIPTION_ONE: "Experiential promotion of touristic fishing boat rides at the international sea conference ‘FIMAR’. Transporting audiences into an unforgettable traditional fishing adventure aboard a fishing boat across the Atlantic Ocean.",
+
+  STACK_SIZE: 5,
+  STACK_1:"Unity",
+  IMG_SRC_STACK_1:"images/stack/software/unity.jpg",
+  STACK_2:"Insta360 Pro 2",
+  IMG_SRC_STACK_2:"images/stack/hardware/insta360.jpg",
+  STACK_3:"Meta Quest 2",
+  IMG_SRC_STACK_3:"images/stack/hardware/metaquest.jpg",
+  STACK_4:"Oculus SDK",
+  IMG_SRC_STACK_4:"images/stack/software/oculus.jpg",
+  STACK_5:"Adobe Creative Suite",
+  IMG_SRC_STACK_5:"images/stack/software/adobe.jpg",
+
+}
+
+const REELTAB_12_BANNER_DATA = {
+  REEL_ID: "12",
   HEADING: "PLOCAN VR",
 
   REEL_IMAGE_QUANTITY: 5,
-  IMG_SRC_REEL_BACKGROUND: "/images/reel/1/PLOCAN_JPG_5.jpg",
-  IMG_SRC_REEL_1: "images/reel/1/PLOCAN_JPG_1.jpg",
-  IMG_SRC_REEL_2: "images/reel/1/PLOCAN_JPG_2.jpg",
-  IMG_SRC_REEL_3: "images/reel/1/PLOCAN_JPG_3.jpg",
-  IMG_SRC_REEL_4: "images/reel/1/PLOCAN_JPG_4.jpg",
-  IMG_SRC_REEL_5: "images/reel/1/PLOCAN_JPG_5.jpg",
+  IMG_SRC_REEL_1: "images/reel/12/PLOCAN_JPG_1.jpg",
+  IMG_SRC_REEL_2: "images/reel/12/PLOCAN_JPG_2.jpg",
+  IMG_SRC_REEL_3: "images/reel/12/PLOCAN_JPG_3.jpg",
+  IMG_SRC_REEL_4: "images/reel/12/PLOCAN_JPG_4.jpg",
+  IMG_SRC_REEL_5: "images/reel/12/PLOCAN_JPG_5.jpg",
 
   /*TAGS MUST BE MAX 3 WORDS LONG*/
   TAG1:"360 VIDEO PRODUCTION",
@@ -277,8 +307,6 @@ const REELTAB_1_BANNER_DATA = {
   TAG4:"IMMERSIVE VIRTUAL TOUR",
   DESCRIPTION_ONE: "Virtual Reality used to take investors to a remote oceanic platform and enable them to walk around.",
 
-  STACK_TEXT: "Technology involved in this project",
-
   STACK_SIZE: 5,
   STACK_1:"Unity",
   IMG_SRC_STACK_1:"images/stack/software/unity.jpg",
@@ -293,17 +321,16 @@ const REELTAB_1_BANNER_DATA = {
 
 }
 
-const REELTAB_2_BANNER_DATA = {
-  REEL_ID: "2",
+const REELTAB_11_BANNER_DATA = {
+  REEL_ID: "11",
   HEADING: "COLUMBUS 360",
 
   REEL_IMAGE_QUANTITY: 5,
-  IMG_SRC_REEL_BACKGROUND: "/images/reel/2/COLON_JPG_4.jpg",
-  IMG_SRC_REEL_1: "images/reel/2/COLON_JPG_1.jpg",
-  IMG_SRC_REEL_2: "images/reel/2/COLON_JPG_2.jpg",
-  IMG_SRC_REEL_3: "images/reel/2/COLON_JPG_3.jpg",
-  IMG_SRC_REEL_4: "images/reel/2/COLON_JPG_4.jpg",
-  IMG_SRC_REEL_5: "images/reel/2/COLON_JPG_5.jpg",
+  IMG_SRC_REEL_1: "images/reel/11/COLON_JPG_1.jpg",
+  IMG_SRC_REEL_2: "images/reel/11/COLON_JPG_2.jpg",
+  IMG_SRC_REEL_3: "images/reel/11/COLON_JPG_3.jpg",
+  IMG_SRC_REEL_4: "images/reel/11/COLON_JPG_4.jpg",
+  IMG_SRC_REEL_5: "images/reel/11/COLON_JPG_5.jpg",
 
   /*TAGS MUST BE MAX 3 WORDS LONG*/
   TAG1:"MUSEUM VIRTUAL REALITY",
@@ -312,8 +339,6 @@ const REELTAB_2_BANNER_DATA = {
   TAG4:"PERMANENT VR EXPOSITION",
   DESCRIPTION_ONE: "Museum permanent virtual reality headset attraction. Visitors can travel along with Cristopher Columbus on his first journey into the unknown.",
 
-  STACK_TEXT: "Technology involved in this project",
-
   STACK_SIZE: 5,
   STACK_1:"Unity",
   IMG_SRC_STACK_1:"images/stack/software/unity.jpg",
@@ -327,17 +352,16 @@ const REELTAB_2_BANNER_DATA = {
   IMG_SRC_STACK_5:"images/stack/software/adobe.jpg",
 }
 
-const REELTAB_3_BANNER_DATA = {
-  REEL_ID: "3",
+const REELTAB_10_BANNER_DATA = {
+  REEL_ID: "10",
   HEADING: "ABORIGINAL VR",
 
   REEL_IMAGE_QUANTITY: 5,
-  IMG_SRC_REEL_BACKGROUND: "/images/reel/3/ABORIGEN_JPG_5.jpg",
-  IMG_SRC_REEL_1: "images/reel/3/ABORIGEN_JPG_1.jpg",
-  IMG_SRC_REEL_2: "images/reel/3/ABORIGEN_JPG_2.jpg",
-  IMG_SRC_REEL_3: "images/reel/3/ABORIGEN_JPG_3.jpg",
-  IMG_SRC_REEL_4: "images/reel/3/ABORIGEN_JPG_4.jpg",
-  IMG_SRC_REEL_5: "images/reel/3/ABORIGEN_JPG_5.jpg",
+  IMG_SRC_REEL_1: "images/reel/10/ABORIGEN_JPG_1.jpg",
+  IMG_SRC_REEL_2: "images/reel/10/ABORIGEN_JPG_2.jpg",
+  IMG_SRC_REEL_3: "images/reel/10/ABORIGEN_JPG_3.jpg",
+  IMG_SRC_REEL_4: "images/reel/10/ABORIGEN_JPG_4.jpg",
+  IMG_SRC_REEL_5: "images/reel/10/ABORIGEN_JPG_5.jpg",
 
   /*TAGS MUST BE MAX 3 WORDS LONG*/
   TAG1:"3D MODELLING & ANIMATION",
@@ -345,8 +369,6 @@ const REELTAB_3_BANNER_DATA = {
   TAG3:"PERMANENT VR EXPOSITION",
   TAG4:"MUSEUM VIRTUAL REALITY",
   DESCRIPTION_ONE: "Museum permanent virtual reality headset attraction. Visitors get transported inside a typical aboriginal house full of items they can then inspect in real life at the museum.",
-
-  STACK_TEXT: "Technology involved in this project",
 
   STACK_SIZE: 4,
   STACK_1:"Unity",
@@ -360,17 +382,16 @@ const REELTAB_3_BANNER_DATA = {
 
 }
 
-const REELTAB_4_BANNER_DATA = {
-  REEL_ID: "4",
+const REELTAB_9_BANNER_DATA = {
+  REEL_ID: "9",
   HEADING: "SHIPYARD 360",
 
   REEL_IMAGE_QUANTITY: 5,
-  IMG_SRC_REEL_BACKGROUND: "/images/reel/4/ASTILLERO_JPG_2.jpg",
-  IMG_SRC_REEL_1: "images/reel/4/ASTILLERO_JPG_3.jpg",
-  IMG_SRC_REEL_2: "images/reel/4/ASTILLERO_JPG_2.jpg",
-  IMG_SRC_REEL_3: "images/reel/4/ASTILLERO_JPG_1.jpg",
-  IMG_SRC_REEL_4: "images/reel/4/ASTILLERO_JPG_4.jpg",
-  IMG_SRC_REEL_5: "images/reel/4/ASTILLERO_JPG_5.jpg",
+  IMG_SRC_REEL_1: "images/reel/9/ASTILLERO_JPG_3.jpg",
+  IMG_SRC_REEL_2: "images/reel/9/ASTILLERO_JPG_2.jpg",
+  IMG_SRC_REEL_3: "images/reel/9/ASTILLERO_JPG_1.jpg",
+  IMG_SRC_REEL_4: "images/reel/9/ASTILLERO_JPG_4.jpg",
+  IMG_SRC_REEL_5: "images/reel/9/ASTILLERO_JPG_5.jpg",
 
   /*TAGS MUST BE MAX 3 WORDS LONG*/
   TAG1:"360 PHOTOGRAPHY",
@@ -379,25 +400,22 @@ const REELTAB_4_BANNER_DATA = {
   TAG4:"EMPLOYEE TRAINING",
   DESCRIPTION_ONE: "Updating ship documentation and quality control through the inclusion of 360 video and 360 photography.",
 
-  STACK_TEXT: "Technology involved in this project",
-
   STACK_SIZE: 1,
   STACK_1:"GoPro Max",
   IMG_SRC_STACK_1:"images/stack/hardware/gopromax.jpg",
 
 }
 
-const REELTAB_5_BANNER_DATA = {
-  REEL_ID: "5",
+const REELTAB_8_BANNER_DATA = {
+  REEL_ID: "8",
   HEADING: "PORT ACTIVITIES 360",
 
   REEL_IMAGE_QUANTITY: 5,
-  IMG_SRC_REEL_BACKGROUND: "/images/reel/5/PORT_JPG_1.jpg",
-  IMG_SRC_REEL_1: "images/reel/5/PORT_JPG_2.jpg",
-  IMG_SRC_REEL_2: "images/reel/5/PORT_JPG_1.jpg",
-  IMG_SRC_REEL_3: "images/reel/5/PORT_JPG_3.jpg",
-  IMG_SRC_REEL_4: "images/reel/5/PORT_JPG_4.jpg",
-  IMG_SRC_REEL_5: "images/reel/5/PORT_JPG_5.jpg",
+  IMG_SRC_REEL_1: "images/reel/8/PORT_JPG_2.jpg",
+  IMG_SRC_REEL_2: "images/reel/8/PORT_JPG_1.jpg",
+  IMG_SRC_REEL_3: "images/reel/8/PORT_JPG_3.jpg",
+  IMG_SRC_REEL_4: "images/reel/8/PORT_JPG_4.jpg",
+  IMG_SRC_REEL_5: "images/reel/8/PORT_JPG_5.jpg",
 
   /*TAGS MUST BE MAX 3 WORDS LONG*/
   TAG1:"360 VIDEO PRODUCTION",
@@ -405,8 +423,6 @@ const REELTAB_5_BANNER_DATA = {
   TAG3:"VIRTUAL REALITY STAND",
   TAG4:"EXPERIENTIAL MARKETING",
   DESCRIPTION_ONE: "Expo's most successfull attraction, transporting stand visitors to a variety of port activities with virtual reality headsets.",
-
-  STACK_TEXT: "Technology involved in this project",
 
   STACK_SIZE: 4,
   STACK_1:"Unity",
@@ -420,16 +436,15 @@ const REELTAB_5_BANNER_DATA = {
 
 }
 
-const REELTAB_6_BANNER_DATA = {
-  REEL_ID: "6",
+const REELTAB_7_BANNER_DATA = {
+  REEL_ID: "7",
   HEADING: "ROBOT HOLOGRAM",
 
   REEL_IMAGE_QUANTITY: 4,
-  IMG_SRC_REEL_BACKGROUND: "/images/reel/6/HOLOG_JPG_1.jpg",
-  IMG_SRC_REEL_1: "images/reel/6/HOLOG_JPG_2.jpg",
-  IMG_SRC_REEL_2: "images/reel/6/HOLOG_JPG_1.jpg",
-  IMG_SRC_REEL_3: "images/reel/6/HOLOG_JPG_3.jpg",
-  IMG_SRC_REEL_4: "images/reel/6/HOLOG_JPG_4.jpg",
+  IMG_SRC_REEL_1: "images/reel/7/HOLOG_JPG_2.jpg",
+  IMG_SRC_REEL_2: "images/reel/7/HOLOG_JPG_1.jpg",
+  IMG_SRC_REEL_3: "images/reel/7/HOLOG_JPG_3.jpg",
+  IMG_SRC_REEL_4: "images/reel/7/HOLOG_JPG_4.jpg",
 
   /*TAGS MUST BE MAX 3 WORDS LONG*/
   TAG1:"3D MODELLING & ANIMATION",
@@ -437,8 +452,6 @@ const REELTAB_6_BANNER_DATA = {
   TAG3:"HOLOGRAM",
   TAG4:"EXPERIENTIAL MARKETING",
   DESCRIPTION_ONE: "Talking and animated holographic 3D model of robot presented for an Expo. Developed for the 'Looking Glass' Holographic system.",
-
-  STACK_TEXT: "Technology involved in this project",
 
   STACK_SIZE: 3,
   STACK_1:"Unity",
@@ -449,18 +462,17 @@ const REELTAB_6_BANNER_DATA = {
   IMG_SRC_STACK_3:"images/stack/hardware/lookingglass.jpg",
 }
 
-const REELTAB_7_BANNER_DATA = {
-  REEL_ID: "7",
+const REELTAB_6_BANNER_DATA = {
+  REEL_ID: "6",
   HEADING: "ECOROUTES WEB TOUR",
 
   /* SERIA IDEAL PODER INCLUIR EL LINK DE LA ECORUTAS AQUI*/
   REEL_IMAGE_QUANTITY: 5,
-  IMG_SRC_REEL_BACKGROUND: "/images/reel/7/ECORRUTA_JPG_5.jpg",
-  IMG_SRC_REEL_1: "images/reel/7/ECORRUTA_JPG_1.jpg",
-  IMG_SRC_REEL_2: "images/reel/7/ECORRUTA_JPG_2.jpg",
-  IMG_SRC_REEL_3: "images/reel/7/ECORRUTA_JPG_3.jpg",
-  IMG_SRC_REEL_4: "images/reel/7/ECORRUTA_JPG_4.jpg",
-  IMG_SRC_REEL_5: "images/reel/7/ECORRUTA_JPG_5.jpg",
+  IMG_SRC_REEL_1: "images/reel/6/ECORRUTA_JPG_1.jpg",
+  IMG_SRC_REEL_2: "images/reel/6/ECORRUTA_JPG_2.jpg",
+  IMG_SRC_REEL_3: "images/reel/6/ECORRUTA_JPG_3.jpg",
+  IMG_SRC_REEL_4: "images/reel/6/ECORRUTA_JPG_4.jpg",
+  IMG_SRC_REEL_5: "images/reel/6/ECORRUTA_JPG_5.jpg",
 
   /*TAGS MUST BE MAX 3 WORDS LONG*/
   TAG1:"360 PHOTOGRAPHY",
@@ -469,8 +481,6 @@ const REELTAB_7_BANNER_DATA = {
   TAG4:"IMMERISVE TOURISM",
   DESCRIPTION_ONE: "Travel the sustainable 'eco' path located in various regions of the Canary Islands with a 360 tour that is mobile and PC friendly.",
 
-  STACK_TEXT: "Technology involved in this project",
-
   STACK_SIZE: 2,
   STACK_1:"Insta360 Pro 2",
   IMG_SRC_STACK_1:"images/stack/hardware/insta360.jpg",
@@ -478,17 +488,16 @@ const REELTAB_7_BANNER_DATA = {
   IMG_SRC_STACK_2:"images/stack/software/webxr_openxr.jpg",
 }
 
-const REELTAB_8_BANNER_DATA = {
-  REEL_ID: "8",
+const REELTAB_5_BANNER_DATA = {
+  REEL_ID: "5",
   HEADING: "BIOASIS VR",
 
   REEL_IMAGE_QUANTITY: 5,
-  IMG_SRC_REEL_BACKGROUND: "/images/reel/8/BIOASIS_JPG_2.jpg",
-  IMG_SRC_REEL_1: "images/reel/8/BIOASIS_JPG_1.jpg",
-  IMG_SRC_REEL_2: "images/reel/8/BIOASIS_JPG_2.jpg",
-  IMG_SRC_REEL_3: "images/reel/8/BIOASIS_JPG_3.jpg",
-  IMG_SRC_REEL_4: "images/reel/8/BIOASIS_JPG_4.jpg",
-  IMG_SRC_REEL_5: "images/reel/8/BIOASIS_JPG_5.jpg",
+  IMG_SRC_REEL_1: "images/reel/5/BIOASIS_JPG_1.jpg",
+  IMG_SRC_REEL_2: "images/reel/5/BIOASIS_JPG_2.jpg",
+  IMG_SRC_REEL_3: "images/reel/5/BIOASIS_JPG_3.jpg",
+  IMG_SRC_REEL_4: "images/reel/5/BIOASIS_JPG_4.jpg",
+  IMG_SRC_REEL_5: "images/reel/5/BIOASIS_JPG_5.jpg",
 
   /*TAGS MUST BE MAX 3 WORDS LONG*/
   TAG1:"360 VIDEO PRODUCTION",
@@ -496,8 +505,6 @@ const REELTAB_8_BANNER_DATA = {
   TAG3:"SCIENTIFIC DISSEMINATION",
   TAG4:"VIRTUAL REALITY STAND",
   DESCRIPTION_ONE: "Users get transported to the spanish algae bank during an expo, bridging the gap between academic research and industrial biotechnological applications.",
-
-  STACK_TEXT: "Technology involved in this project",
 
   STACK_SIZE: 4,
   STACK_1:"Insta360 Pro 2",
@@ -510,17 +517,16 @@ const REELTAB_8_BANNER_DATA = {
   IMG_SRC_STACK_4:"images/stack/software/adobe.jpg",
 }
 
-const REELTAB_9_BANNER_DATA = {
-  REEL_ID: "9",
+const REELTAB_4_BANNER_DATA = {
+  REEL_ID: "4",
   HEADING: "MICROALGAES VR",
 
   REEL_IMAGE_QUANTITY: 5,
-  IMG_SRC_REEL_BACKGROUND: "/images/reel/9/PHYCONOVA_JPG_2.jpg",
-  IMG_SRC_REEL_1: "images/reel/9/PHYCONOVA_JPG_1.jpg",
-  IMG_SRC_REEL_2: "images/reel/9/PHYCONOVA_JPG_2.jpg",
-  IMG_SRC_REEL_3: "images/reel/9/PHYCONOVA_JPG_3.jpg",
-  IMG_SRC_REEL_4: "images/reel/9/PHYCONOVA_JPG_4.jpg",
-  IMG_SRC_REEL_5: "images/reel/9/PHYCONOVA_JPG_5.jpg",
+  IMG_SRC_REEL_1: "images/reel/4/PHYCONOVA_JPG_1.jpg",
+  IMG_SRC_REEL_2: "images/reel/4/PHYCONOVA_JPG_2.jpg",
+  IMG_SRC_REEL_3: "images/reel/4/PHYCONOVA_JPG_3.jpg",
+  IMG_SRC_REEL_4: "images/reel/4/PHYCONOVA_JPG_4.jpg",
+  IMG_SRC_REEL_5: "images/reel/4/PHYCONOVA_JPG_5.jpg",
 
   /*TAGS MUST BE MAX 3 WORDS LONG*/
   TAG1:"MUSEUM VIRTUAL REALITY",
@@ -528,8 +534,6 @@ const REELTAB_9_BANNER_DATA = {
   TAG3:"UNITY DEVELOPMENT",
   TAG4:"ANDROID & IOS DEVELOPMENT",
   DESCRIPTION_ONE: "Experience and learn about the molecular composition of various micro-algaes with the Phyconova VR experience at the Elder Museum of Science and Technology.",
-
-  STACK_TEXT: "Technology involved in this project",
 
   STACK_SIZE: 6,
   STACK_1:"Unity",
@@ -546,16 +550,15 @@ const REELTAB_9_BANNER_DATA = {
   IMG_SRC_STACK_6:"images/stack/hardware/android_apple.jpg",
 }
 
-const REELTAB_10_BANNER_DATA = {
-  REEL_ID: "10",
+const REELTAB_3_BANNER_DATA = {
+  REEL_ID: "3",
   HEADING: "NUBLO 360",
 
   REEL_IMAGE_QUANTITY: 4,
-  IMG_SRC_REEL_BACKGROUND: "/images/reel/10/NUBLO_JPG_3.jpg",
-  IMG_SRC_REEL_1: "images/reel/10/NUBLO_JPG_1.jpg",
-  IMG_SRC_REEL_2: "images/reel/10/NUBLO_JPG_2.jpg",
-  IMG_SRC_REEL_3: "images/reel/10/NUBLO_JPG_3.jpg",
-  IMG_SRC_REEL_4: "images/reel/10/NUBLO_JPG_4.jpg",
+  IMG_SRC_REEL_1: "images/reel/3/NUBLO_JPG_1.jpg",
+  IMG_SRC_REEL_2: "images/reel/3/NUBLO_JPG_2.jpg",
+  IMG_SRC_REEL_3: "images/reel/3/NUBLO_JPG_3.jpg",
+  IMG_SRC_REEL_4: "images/reel/3/NUBLO_JPG_4.jpg",
 
   /*TAGS MUST BE MAX 3 WORDS LONG*/
   TAG1:"360 VIDEO PRODUCTION",
@@ -564,8 +567,6 @@ const REELTAB_10_BANNER_DATA = {
   TAG4:"EXPERIENTIAL MARKETING",
   DESCRIPTION_ONE: "360 video production of one of the most touristic areas in the island of Gran Canaria. Immersive journey to the center of the island.",
 
-  STACK_TEXT: "Technology involved in this project",
-
   STACK_SIZE: 4,
   STACK_1:"Insta360 Pro 2",
   IMG_SRC_STACK_1:"images/stack/hardware/insta360.jpg",
@@ -577,17 +578,16 @@ const REELTAB_10_BANNER_DATA = {
   IMG_SRC_STACK_4:"images/stack/software/adobe.jpg",
 }
 
-const REELTAB_11_BANNER_DATA = {
-  REEL_ID: "11",
+const REELTAB_2_BANNER_DATA = {
+  REEL_ID: "2",
   HEADING: "SEASIDE TOURISM 360",
 
   REEL_IMAGE_QUANTITY: 5,
-  IMG_SRC_REEL_BACKGROUND: "/images/reel/11/MOGAN_JPG_1.jpg",
-  IMG_SRC_REEL_1: "images/reel/11/MOGAN_JPG_1.jpg",
-  IMG_SRC_REEL_2: "images/reel/11/MOGAN_JPG_2.jpg",
-  IMG_SRC_REEL_3: "images/reel/11/MOGAN_JPG_3.jpg",
-  IMG_SRC_REEL_4: "images/reel/11/MOGAN_JPG_4.jpg",
-  IMG_SRC_REEL_5: "images/reel/11/MOGAN_JPG_5.jpg",
+  IMG_SRC_REEL_1: "images/reel/2/MOGAN_JPG_1.jpg",
+  IMG_SRC_REEL_2: "images/reel/2/MOGAN_JPG_2.jpg",
+  IMG_SRC_REEL_3: "images/reel/2/MOGAN_JPG_3.jpg",
+  IMG_SRC_REEL_4: "images/reel/2/MOGAN_JPG_4.jpg",
+  IMG_SRC_REEL_5: "images/reel/2/MOGAN_JPG_5.jpg",
 
   /*TAGS MUST BE MAX 3 WORDS LONG*/
   TAG1:"360 VIDEO PRODUCTION",
@@ -596,8 +596,6 @@ const REELTAB_11_BANNER_DATA = {
   TAG4:"EXPERIENTIAL MARKETING",
   DESCRIPTION_ONE: "Walk, discover and enjoy a romantic evening at Mogan. Get to know the seaside resort in virtual reality before experiencing it in real life.",
 
-  STACK_TEXT: "Technology involved in this project",
-
   STACK_SIZE: 4,
   STACK_1:"Insta360 Pro 2",
   IMG_SRC_STACK_1:"images/stack/hardware/insta360.jpg",
@@ -609,15 +607,14 @@ const REELTAB_11_BANNER_DATA = {
   IMG_SRC_STACK_4:"images/stack/software/adobe.jpg",
 }
 
-const REELTAB_12_BANNER_DATA = {
-  REEL_ID: "12",
+const REELTAB_1_BANNER_DATA = {
+  REEL_ID: "1",
   HEADING: "TENERIFE TOURISM 360",
 
   REEL_IMAGE_QUANTITY: 3,
-  IMG_SRC_REEL_BACKGROUND: "/images/reel/12/SANTIAGO_JPG_1.jpg",
-  IMG_SRC_REEL_1: "images/reel/12/SANTIAGO_JPG_1.jpg",
-  IMG_SRC_REEL_2: "images/reel/12/SANTIAGO_JPG_2.jpg",
-  IMG_SRC_REEL_3: "images/reel/12/SANTIAGO_JPG_3.jpg",
+  IMG_SRC_REEL_1: "images/reel/1/SANTIAGO_JPG_1.jpg",
+  IMG_SRC_REEL_2: "images/reel/1/SANTIAGO_JPG_2.jpg",
+  IMG_SRC_REEL_3: "images/reel/1/SANTIAGO_JPG_3.jpg",
 
   /*TAGS MUST BE MAX 3 WORDS LONG*/
   TAG1:"360 VIDEO PRODUCTION",
@@ -625,8 +622,6 @@ const REELTAB_12_BANNER_DATA = {
   TAG3:"IMMERSIVE TOURISM",
   TAG4:"EXPERIENTIAL MARKETING",
   DESCRIPTION_ONE: "A VR experience designed to be shown at touristic centers in south Tenerife. The immersive experience will guide the user through a specific touristic path with the objective of dynamising local commerce.",
-
-  STACK_TEXT: "Technology involved in this project",
 
   STACK_SIZE: 4,
   STACK_1:"Insta360 Pro 2",
@@ -659,7 +654,7 @@ const SERVICESINDIVIDUAL_1_BANNER_DATA = {
 
 
   SERVICE_HEADING: "Virtual Reality Development",
-  SERVICE_SUBHEADING: "We create digitally recreate any environment or situation to experience in immersive virtual reality.",
+  SERVICE_SUBHEADING: "We digitally recreate any environment or situation to experience in immersive virtual reality.",
   SERVICE_TITLE_1: "Full-cycle, Full-stack and Full-scale Virtual Reality Development Services: ",
   SERVICE_DESCRIPTION_1: "By creating custom, interactive, computer-generated scenarios, we immerse your audience in any kind of experience. They can train, design, build, discover, have fun… the possibilities are endless.",
 
@@ -772,7 +767,7 @@ const MOCK_DATA = {
   MAINREELBANNER_DATA,REELTAB_1_BANNER_DATA,REELTAB_2_BANNER_DATA,REELTAB_3_BANNER_DATA,
   REELTAB_4_BANNER_DATA,REELTAB_5_BANNER_DATA,REELTAB_6_BANNER_DATA,REELTAB_7_BANNER_DATA,
   REELTAB_8_BANNER_DATA,REELTAB_9_BANNER_DATA,REELTAB_10_BANNER_DATA,REELTAB_11_BANNER_DATA,
-  REELTAB_12_BANNER_DATA,
+  REELTAB_12_BANNER_DATA,  REELTAB_13_BANNER_DATA,
   
   SERVICESMAIN_BANNER_DATA,SERVICESINDIVIDUAL_1_BANNER_DATA,SERVICESINDIVIDUAL_2_BANNER_DATA,
   SERVICESINDIVIDUAL_3_BANNER_DATA,SERVICESINDIVIDUAL_4_BANNER_DATA,SERVICESINDIVIDUAL_5_BANNER_DATA

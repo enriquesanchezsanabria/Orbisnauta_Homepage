@@ -29,19 +29,19 @@ onMount(() => {
             <div id="text-content-wrapper" class="col-11 col-lg-7 col-xxl-6 text-start align-middle my-auto">
 
                 <div class="col-12">
-                    <p class="main-text-sub h3 fw-bold text-center">
+                    <p class="main-text-sub h3 fw-bold text-center lh-base">
                         {PREHEADING}
                     </p>
                 </div>
 
                 <div class="col-12 mb-3 mb-xxl-4">
-                    <h2 class="main-text-main text-white display-2 fw-bold text-center">
+                    <h2 class="main-text-main text-white display-2 fw-bold text-center my-4">
                         {HEADING}
                     </h2>
                 </div>
                 
                 <div class="col-12 my-3 my-sm-4 ">
-                    <h3 class="main-text-post text-white fw-normal ">
+                    <h3 class="main-text-post text-white fw-normal lh-base">
                         {DESCRIPTION_ONE}
                         <br>
                         <br>
@@ -115,6 +115,12 @@ section{
 .btn-primary:hover .bi{
     display: inline-block; 
     transform: translate(5px,0px);
+}
+
+/* USAMOS ESTO PARA QUE NO SE VEA EL BORDE AZUL CUANDO HEMOS CLICKEADO EL BOTON EN MOVIL*/
+.btn-primary:focus, .btn-primary:active{
+    outline: none !important;
+    box-shadow: none;
 }
 
 .main-text-sub{
@@ -283,7 +289,7 @@ section{
     }
 
     .text-inside-button{
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 
     .main-text-sub{

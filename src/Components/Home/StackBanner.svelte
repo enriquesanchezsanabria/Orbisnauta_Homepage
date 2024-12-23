@@ -193,7 +193,7 @@ function showOnlyHardware() {
     </div>
 
 
-    <div class="row justify-content-center card-wrapper my-2 my-md-4 mx-1">
+    <div class="row justify-content-center card-wrapper my-2 my-md-4 mx-1 ">
       <!--  <h2 class="text-light">
         {PLATFORMS_TITLE}
       </h2> -->
@@ -203,7 +203,7 @@ function showOnlyHardware() {
           <div class="card-body text-center">
             <img src={IMG_STACK_PLATFORM_1} alt="" class="img-fluid icon-image" />
             <h3 class="card-title fw-bold">{PLATFORMS_HEADING_1}</h3>
-            <p class="card-text h5">{PLATFORMS_TEXT_1}</p>
+            <p class="card-text h5 lh-base">{PLATFORMS_TEXT_1}</p>
           </div>
         </div>
       </div>
@@ -213,7 +213,7 @@ function showOnlyHardware() {
           <div class="card-body text-center">
             <img src={IMG_STACK_PLATFORM_2} alt="" class="img-fluid icon-image" />
             <h3 class="card-title fw-bold">{PLATFORMS_HEADING_2}</h3>
-            <p class="card-text h5">{PLATFORMS_TEXT_2}</p>
+            <p class="card-text h5 lh-base">{PLATFORMS_TEXT_2}</p>
           </div>
         </div>
       </div>
@@ -223,7 +223,7 @@ function showOnlyHardware() {
           <div class="card-body text-center">
             <img src={IMG_STACK_PLATFORM_3} alt="" class="img-fluid icon-image" />
             <h3 class="card-title fw-bold">{PLATFORMS_HEADING_3}</h3>
-            <p class="card-text h5">{PLATFORMS_TEXT_3}</p>
+            <p class="card-text h5 lh-base">{PLATFORMS_TEXT_3}</p>
           </div>
         </div>
       </div>
@@ -233,7 +233,7 @@ function showOnlyHardware() {
           <div class="card-body text-center">
             <img src={IMG_STACK_PLATFORM_4} alt="" class="img-fluid icon-image" />
             <h3 class="card-title fw-bold">{PLATFORMS_HEADING_4}</h3>
-            <p class="card-text h5">{PLATFORMS_TEXT_4}</p>
+            <p class="card-text h5 lh-base">{PLATFORMS_TEXT_4}</p>
           </div>
         </div>
       </div>
@@ -374,7 +374,7 @@ function showOnlyHardware() {
               <div class="row cards-row justify-content-center mx-1">
 
           
-                <!--   1.  Varjo VR-3    -->
+                <!--   1.  Meta Quest 3    -->
                 <div class="card-container px-2 col-6 col-sm-4">
                   <div class="card h-100">
                     <div class="card-body text-center">
@@ -384,7 +384,7 @@ function showOnlyHardware() {
                     </div>
                   </div>
                 </div>
-                <!--  2.  Meta Quest 2 / Pico Neo 3   -->
+                <!--  2.  Varjo VR-3   -->
                 <div class="card-container px-2 col-6 col-sm-4">
                   <div class="card h-100">
                     <div class="card-body text-center">
@@ -394,7 +394,7 @@ function showOnlyHardware() {
                     </div>
                   </div>
                 </div>
-                <!--  3.  Insta360 Pro 2    -->
+                <!--  3.  Pico Neo 4    -->
                 <div class="card-container px-2 col-6 col-sm-4">
                   <div class="card h-100">
                     <div class="card-body text-center">
@@ -404,7 +404,7 @@ function showOnlyHardware() {
                     </div>
                   </div>
                 </div>
-                <!--  4.  Phones / Tablets    -->
+                <!--  4.  Insta360 Pro 2   -->
                 <div class="card-container px-2 col-6 col-sm-4">
                   <div class="card h-100">
                     <div class="card-body text-center">
@@ -414,7 +414,7 @@ function showOnlyHardware() {
                     </div>
                   </div>
                 </div>
-                <!--  5.  HTC Vive Pro 2 / Focus    -->
+                <!--  5.  Valve Index / HTC Vive Pro 2 / Focus    -->
                 <div class="card-container px-2 col-6 col-sm-4">
                   <div class="card h-100">
                     <div class="card-body text-center">
@@ -424,7 +424,7 @@ function showOnlyHardware() {
                     </div>
                   </div>
                 </div>
-                <!--   6.  DRONES    -->
+                <!--   6.  Phones / Tablets / Touchscreens     -->
                 <div class="card-container px-2 col-6 col-sm-4">
                   <div class="card h-100">
                     <div class="card-body text-center">
@@ -434,7 +434,7 @@ function showOnlyHardware() {
                     </div>
                   </div>
                 </div>
-                <!--   7.  Looking Glass Holograms    -->
+                <!--   7.  Drones     -->
                 <div class="card-container px-2 col-6 col-sm-4">
                   <div class="card h-100">
                     <div class="card-body text-center">
@@ -444,7 +444,7 @@ function showOnlyHardware() {
                     </div>
                   </div>
                 </div>
-                <!--  8.  Immersive Rooms / Domes    -->
+                <!--  8.  Holograms    -->
                 <div class="card-container px-2 col-6 col-sm-4">
                   <div class="card h-100">
                     <div class="card-body text-center">
@@ -454,7 +454,7 @@ function showOnlyHardware() {
                     </div>
                   </div>
                 </div>
-                <!--  9.  Oculus Go    -->
+                <!--  9.  Immersive Rooms / Domes    -->
                 <div class="card-container px-2 col-6 col-sm-4">
                   <div class="card h-100">
                     <div class="card-body text-center">
@@ -464,16 +464,7 @@ function showOnlyHardware() {
                     </div>
                   </div>
                 </div>
-                <!--  10.  GoPro Max    -->
-                <div class="card-container px-2 col-6 col-sm-4">
-                  <div class="card h-100">
-                    <div class="card-body text-center">
-                      <img src={IMG_STACK_HARDWARE_10} alt="" class="img-fluid icon-image" />
-                      <h5 class="small-card-title fw-bold">{HARDWARE_HEADING_10}</h5>
-                      
-                    </div>
-                  </div>
-                </div>
+
 
               </div>
             </div>
@@ -622,14 +613,28 @@ section{
 /* IN THIS MEDIA QUERY WE USE THE RESPONSIVE MENU, NOT THE REGULAR MENU */
 @media(max-width: 376px){
   
+  .main-text-main{
+        font-size: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 21rem;
+  }
+
+  .card-title{
+    font-size: 1.2rem;
+  }
+
+  p{
+    font-size: 0.9rem;
+
+  }
+
+
   .btn-primary{
     font-size: 0.9rem;
     align-content: center;
   }
 
-  .card-title{
-    font-size: 1.5rem;
-  }
 
   .small-card-title{
     font-size: 0.7rem;
@@ -639,12 +644,6 @@ section{
      font-size: 1rem; 
   }
 
-  .main-text-main{
-        font-size: 2rem;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 21rem;
-    }
 
 
 
